@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? família=Bungee+Shade&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color1: #0DC9FA;
+    --color2: #0B7BDE;
+    --color3: #0042F5;
+    --color4: #0B0CDE;
+}
+body{
+    background-color: var(--color2);
+}
+main{
+    font-family: 'Bungee Shade';
+    background-color: var(--color4);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    height: 40px;
+    width: 100%;
+}
+.fundoA{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    background-color: red;
+}
+.fundo{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 400px;
+    margin: 10px 10px;
+}
+.conteiner{
+    background-color: rgba(255, 255, 255, 0.158);
+
+    height: 80%;
+    width: 80%;
+    margin: 23px auto;
+}
+img{
+    width: 100%;
+    height: 280px;
+}
+.painel h1{
+    color: rgb(65, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: bolder;
+}
+.painel > p{
+    color: rgb(65, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.botao{
+    background-color: rgb(21, 34, 211);
+    margin: 8px 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: wheat;
+    border: none
+}
+.botao:hover{
+    box-shadow: 0px 0px 10px black
+}
