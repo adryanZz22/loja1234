@@ -11,18 +11,23 @@
     --color2: #0B7BDE;
     --color3: #0042F5;
     --color4: #0B0CDE;
+    --color5: #ffffff;
+    --color6: #b8b8b8;
+    --color7: #7c7c7c;
 }
 body{
-    background-color: var(--color2);
+    background-image: url();
 }
 main{
     font-family: 'Bungee Shade';
     background-color: var(--color4);
     color: rgb(255, 255, 255);
-    text-align: center;
     padding: 15px;
     height: 40px;
     width: 100%;
+}
+main h1{
+    padding-left: 60px;
 }
 .fundoA{
     margin: auto;
@@ -30,17 +35,19 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     width: 90%;
-    background-color: red;
+    background-color: var(--color6);
 }
 .fundo{
-    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    background-color: var(--color5);
     height: 500px;
     width: 400px;
     margin: 10px 10px;
 }
 .conteiner{
-    background-color: rgba(255, 255, 255, 0.158);
-
+    background-color: var(--color5);
+    padding-bottom: 50px;
     height: 80%;
     width: 80%;
     margin: 23px auto;
