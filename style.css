@@ -16,19 +16,35 @@
     --color7: #7c7c7c;
 }
 body{
-    background-image: url();
+background-color: #0B0CDE;
 }
 main{
+    display: inline;
     font-family: 'Bungee Shade';
     background-color: var(--color4);
     color: rgb(255, 255, 255);
     padding: 15px;
     height: 40px;
     width: 100%;
+
 }
 main h1{
     padding-left: 60px;
+ }
+main ul{
+    display: inline;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
 }
+main ul li a{
+    color: #ffffff;
+}
+
+
+
 .fundoA{
     margin: auto;
     display: flex;
